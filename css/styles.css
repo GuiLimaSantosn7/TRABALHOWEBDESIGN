@@ -1,0 +1,132 @@
+@font-face {
+    font-family: MEF;
+    src: url(me123.ttf);
+}
+
+
+:root {
+    --font1: MEF;
+}
+
+body {
+    background-color: rgb(9,21,46);
+    background: linear-gradient(90deg, rgba(9,21,46,1) 0%, rgba(31,33,89,1) 49%, rgba(9,21,46,1) 100%);;
+}
+
+img {
+    width: 40%;   
+}
+
+.MAT {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.IF {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.POST {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    margin-left: 70%;
+    width: 310px;
+    
+}
+
+
+
+.IMG1 {
+    box-shadow: 0px 0px 0px 5px #ffffff;
+    transition: box-shadow 0.6s linear;
+    margin: 0.5em;
+}
+
+.IMG1:hover {  box-shadow: 0px 0px 0px 10px #ffffff; }
+
+.POST2 {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    margin-left: 90%;
+    width: 300px;
+}
+
+.IMG2 {
+ 
+    box-shadow: 0px 0px 0px 5px #ffffff;
+    transition: box-shadow 0.6s linear;
+    margin: 0.5em;
+}
+
+.IMG2:hover {  box-shadow: 0px 0px 0px 10px #ffffff; }
+
+.POST3 {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -13%;
+    margin-top: 13%;
+    margin-left: 130%;
+    width: 290px;
+}
+
+.IMG3 {
+    box-shadow: 0px 0px 0px 5px #ffffff;
+    transition: box-shadow 0.6s linear;
+    margin: 0.2em;
+}
+
+.IMG3:hover {  box-shadow: 0px 0px 0px 10px #ffffff; }
+
+p {
+    font-family: var(--font1);
+    color: #85878a;
+    margin-left: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(9,21,46);
+    background: linear-gradient(90deg, rgba(9,21,46,0) 0%, rgba(253,29,29,1) 49%, rgba(9,21,46,1) 100%);
+}
+
+.POST:hover {
+    border: 200px white;
+}
+
+
+li .POST {
+    display: block;
+    padding: 50px;
+}
+
+p {
+    font-family: var(--font1);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: #85878a;
+}
+
