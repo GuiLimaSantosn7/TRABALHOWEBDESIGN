@@ -1,4 +1,9 @@
 @font-face {
+    font-family: B;
+    src: url(BeniLight.ttf);
+}
+
+@font-face {
     font-family: MEF;
     src: url(me123.ttf);
 }
@@ -6,6 +11,7 @@
 
 :root {
     --font1: MEF;
+    --font2: B;
 }
 
 body {
@@ -130,3 +136,32 @@ footer {
     color: #85878a;
 }
 
+.br {
+    margin-bottom: 125px;
+}
+
+.UG {
+    font-family: var(--font2);
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.UGG {
+    font-family: var(--font2);
+    color: #ffffff;
+    font-size: 50px;
+    
+}
+
+
+.IFI {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 2000px;
+    margin-left: -275px;
+}
+
+#nav-bar{display:none;}
